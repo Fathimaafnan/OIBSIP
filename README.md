@@ -1,94 +1,46 @@
-# EDA Retail Sales Analysis
+# Customer Segmentation Analysis
 
-## Project Overview
+## Objective
 
-This project performs Exploratory Data Analysis (EDA) on a Retail Sales dataset using Python. The objective is to understand sales patterns, customer behavior, and product performance through data cleaning, visualization, and business insights.
+The objective of this project is to segment customers into different groups based on their annual income and spending score using the K-Means Clustering algorithm.
 
----
-
-## Objectives
-
-- Clean and prepare the dataset
-- Analyze sales trends
-- Compare product categories
-- Identify customer purchase patterns
-- Generate business insights using visualizations
-
----
-
-## Tools & Technologies
+## Tools Used
 
 - Python
 - Pandas
 - NumPy
 - Matplotlib
 - Seaborn
+- Scikit-learn
 - Jupyter Notebook
-- VS Code
-
----
 
 ## Dataset
 
-**File:** `EDA_Retail_Sales.csv`
+Mall_Customers.csv
 
-The dataset contains retail transaction details such as:
+## Project Workflow
 
-- Transaction ID
-- Date
-- Customer ID
-- Gender
-- Age
-- Product Category
-- Quantity
-- Price per Unit
-- Total Amount
+- Data Loading
+- Data Cleaning
+- Exploratory Data Analysis (EDA)
+- Customer Segmentation using K-Means
+- Cluster Visualization
+- Business Insights
+- Conclusion
 
----
+## Key Findings
 
-## Visualizations
+- The dataset contains 200 customer records.
+- Customers were grouped into 5 clusters.
+- The largest cluster contains 81 customers.
+- Customer segmentation helps businesses understand customer purchasing behavior and improve marketing strategies.
 
-This project includes:
+## Files Included
 
-- Monthly Sales Trend
-- Top 10 Highest Sales Transactions
-- Quantity Sold by Product Category
-- Correlation Heatmap
-- Box Plot of Total Sales
-- Scatter Plot (Age vs Total Amount)
-- Customer Gender Distribution
-- Average Sales by Category
-
----
-
-## Key Insights
-
-- Sales vary across different months.
-- Beauty products have the highest average sales.
-- Clothing category records the highest quantity sold.
-- Male and female customers contribute almost equally.
-- Price per Unit strongly influences Total Amount.
-
----
+- Customer_Segmentation.ipynb
+- Mall_Customers.csv
+- README.md
 
 ## Conclusion
 
-The project successfully demonstrates how Exploratory Data Analysis can help businesses understand customer behavior, sales trends, and product performance. These insights support better business decisions related to inventory, pricing, and marketing strategies.
-
----
-
-## Author
-
-**Fathima Afnan**
-
-MCA Graduate | Aspiring Data Analyst
-
-Skills:
-- Python
-- SQL
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- Excel
-- Tableau
+Customer Segmentation is an important business analysis technique that helps organizations identify different customer groups and create personalized marketing strategies.
