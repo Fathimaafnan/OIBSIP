@@ -35,6 +35,12 @@ Mall_Customers.csv
 - The largest cluster contains 81 customers.
 - Customer segmentation helps businesses understand customer purchasing behavior and improve marketing strategies.
 
+## Business Impact
+
+• Identified five distinct customer groups.
+• Helps businesses target customers with personalized marketing campaigns.
+• Supports customer retention and revenue growth strategies.
+
 ## Files Included
 
 - Customer_Segmentation.ipynb
