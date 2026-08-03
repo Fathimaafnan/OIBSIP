@@ -30,7 +30,7 @@ Mall_Customers.csv
 
 ## Key Findings
 
-- The dataset contains 201 customer records.
+- The dataset contains 200 customer records.
 - Customers were grouped into 5 clusters.
 - The largest cluster contains 81 customers.
 - Customer segmentation helps businesses understand customer purchasing behavior and improve marketing strategies.
